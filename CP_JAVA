@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    // The sumArray method needs to be outside the main method 
+    // and defined as static for direct access within main
+    public static int sumArray(int[] a) {
+        int sum = 0;
+        for (int x : a) {
+            sum += x;
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        // Example usage of the fixed method:
+        int[] numbers = {1, 2, 3, 4, 5};
+        int result = sumArray(numbers); // Call the static method
+        System.out.println("The sum is: " + result); 
+    }
+}
