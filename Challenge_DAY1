@@ -1,0 +1,15 @@
+class Solution {
+    public int repeatedNTimes(int[] nums) {
+         HashMap<Integer, Integer> count = new HashMap<>();
+         int n = nums.length/2;
+        for (int num : nums) {
+            int freq = count.getOrDefault(num, 0) + 1;
+            count.put(num, freq);
+
+            if (freq == n) {
+                return num; 
+            }
+        }
+        return -1;
+        }
+    }
