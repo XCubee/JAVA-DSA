@@ -5,7 +5,7 @@ class Solution {
         for (int num : nums) {
             int freq = count.getOrDefault(num, 0) + 1;
             count.put(num, freq);
-
+ 
             if (freq == n) {
                 return num; 
             }
