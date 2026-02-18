@@ -1,6 +1,6 @@
 public class Main{
 
-  public static int add(int a,int b){
+  public static int add(int a,int b) {
     int x=a+b;
     return (x);
   }
