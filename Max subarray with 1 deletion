@@ -1,7 +1,7 @@
 class Solution {
     public int maximumSum(int[] arr) {
         int n = arr.length;
-
+ 
         
         int noDelete = arr[0];     
         int oneDelete = 0;         
