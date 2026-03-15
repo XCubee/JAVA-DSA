@@ -1,7 +1,7 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
-class Main {  
+class Main  {  
     // The sumArray method needs to be outside the main method 
     // and defined as static for direct access within main
     public static int sumArray(int[] a) {
