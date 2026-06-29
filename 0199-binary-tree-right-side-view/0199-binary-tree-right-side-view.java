@@ -23,7 +23,7 @@ class Solution {
         while(!q.isEmpty()){
             int levelSize=q.size();
 
-            for(int i=0;i<levelSize;i++){ // i = Single Node 
+            for(int i=0;i<levelSize;i++){ // i = Pointer Counter
                 TreeNode node = q.poll();
             
             if(i==levelSize-1){
