@@ -1,3 +1,4 @@
+
 /*
 // Definition for a Node.
 class Node {
@@ -23,31 +24,16 @@ class Node {
 
 class Solution {
     public Node connect(Node root) {
-        if(root==null){return null;}
-
-        Queue <Node> queue = new LinkedList<>();
-        queue.offer(root);
-
-        while(!queue.isEmpty()){
-            
-            int levelSize = queue.size();
-
-            for(int i=0;i<levelSize;i++){
-                Node t = queue.poll();
-
-                if(i<levelSize-1){
-                    t.next=queue.peek();
-                }
-                else{
-                    t.next=null;
-                }
-                if(t.left!=null){
-                    queue.offer(t.left);
-                }
-                if(t.right!=null){
-                    queue.offer(t.right);
-                }
+        if(root == null) return null;
+        Node leftmost = root;
+        while(leftmost.left != null){
+            Node curr = leftmost;
+            while(curr != null){
+                curr.left.next = curr.right;
+                if(curr.next != null) curr.right.next = curr.next.left;
+                curr = curr.next;
             }
+           leftmost = leftmost.left; 
         }
         return root;
     }
