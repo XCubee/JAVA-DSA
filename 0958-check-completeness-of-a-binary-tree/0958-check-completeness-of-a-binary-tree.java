@@ -15,27 +15,26 @@
  */
 class Solution {
     public boolean isCompleteTree(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        boolean seenNull = false;
+        int totalNodes = countNodes(root);
+        return checkIndices(root, 1, totalNodes);
+    }
+    
+    // Helper to count total nodes in the tree
+    private int countNodes(TreeNode root) {
+        if (root == null) return 0;
+        return 1 + countNodes(root.left) + countNodes(root.right);
+    }
+    
+    // Helper to verify if any node index exceeds the total count
+    private boolean checkIndices(TreeNode root, int index, int totalNodes) {
+        if (root == null) return true;
         
-        while (!queue.isEmpty()) {
-            TreeNode curr = queue.poll();
-            
-            if (curr == null) {
-                // Once we see a null, any subsequent node makes the tree incomplete
-                seenNull = true;
-            } else {
-                // If we see a valid node after a null, it's not complete
-                if (seenNull) {
-                    return false;
-                }
-                // Push both left and right children, even if they are null
-                queue.add(curr.left);
-                queue.add(curr.right);
-            }
-        }
+        // If the current node's index is greater than the total node count,
+        // it means there is a gap somewhere earlier in the tree.
+        if (index > totalNodes) return false;
         
-        return true;
+        // Recursively check left and right subtrees with their respective indices
+        return checkIndices(root.left, 2 * index, totalNodes) 
+            && checkIndices(root.right, 2 * index + 1, totalNodes);
     }
 }
