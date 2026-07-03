@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/XCubee/JAVA-DSA/tree/master/0204-count-primes) |
+| [1513-number-of-substrings-with-only-1s](https://github.com/XCubee/JAVA-DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/XCubee/JAVA-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2427-number-of-common-factors](https://github.com/XCubee/JAVA-DSA/tree/master/2427-number-of-common-factors) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/XCubee/JAVA-DSA/tree/master/0257-binary-tree-paths) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1513-number-of-substrings-with-only-1s](https://github.com/XCubee/JAVA-DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/XCubee/JAVA-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Counting
 |  |
