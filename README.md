@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/XCubee/JAVA-DSA/tree/master/0041-first-missing-positive) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/XCubee/JAVA-DSA/tree/master/0031-next-permutation) |
+| [0041-first-missing-positive](https://github.com/XCubee/JAVA-DSA/tree/master/0041-first-missing-positive) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0204-count-primes](https://github.com/XCubee/JAVA-DSA/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/XCubee/JAVA-DSA/tree/master/0238-product-of-array-except-self) |
