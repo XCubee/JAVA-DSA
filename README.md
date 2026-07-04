@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/XCubee/JAVA-DSA/tree/master/0257-binary-tree-paths) |
+| [0344-reverse-string](https://github.com/XCubee/JAVA-DSA/tree/master/0344-reverse-string) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/XCubee/JAVA-DSA/tree/master/1513-number-of-substrings-with-only-1s) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/XCubee/JAVA-DSA/tree/master/0031-next-permutation) |
+| [0344-reverse-string](https://github.com/XCubee/JAVA-DSA/tree/master/0344-reverse-string) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Greedy
 |  |
