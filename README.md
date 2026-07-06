@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/XCubee/JAVA-DSA/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/XCubee/JAVA-DSA/tree/master/0238-product-of-array-except-self) |
 | [0334-increasing-triplet-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0334-increasing-triplet-subsequence) |
+| [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/XCubee/JAVA-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/XCubee/JAVA-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
@@ -242,4 +243,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/XCubee/JAVA-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Sorting
+|  |
+| ------- |
+| [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 <!---LeetCode Topics End-->
