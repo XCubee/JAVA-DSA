@@ -1,6 +1,6 @@
 class Solution {
     public long sumAndMultiply(int n) {
-        Stack <Integer> stack = new Stack<>();
+      
         if(n==0) return 0;
 
         long x=0;
