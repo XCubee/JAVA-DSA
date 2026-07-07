@@ -1,33 +1,28 @@
+import java.util.Arrays;
+
 class Solution {
     public int removeCoveredIntervals(int[][] intervals) {
-
-        int ans = 0;
-        int n = intervals.length;
-
-        for (int i = 0; i < n; i++) {
-
-            int s1 = intervals[i][0];
-            int e1 = intervals[i][1];
-
-            boolean flag = false;
-
-            for (int j = 0; j < n; j++) {
-                int s2 = intervals[j][0];
-                int e2 = intervals[j][1];
-
-                if (i != j && s1 >= s2 && e2 >= e1) {
-                    flag = true;
-                    break;
-                }
-
+        // 1. Sort by start ascending, then by end descending
+        Arrays.sort(intervals, (a, b) -> {
+            if (a[0] == b[0]) {
+                return b[1] - a[1]; // End time descending
             }
-
-            if (!flag) {
-                ans++;
+            return a[0] - b[0]; // Start time ascending
+        });
+        
+        int remainingCount = 0;
+        int maxEnd = 0;
+        
+        // 2. Single pass to find covered intervals
+        for (int[] interval : intervals) {
+            // If the current interval's end is past our maxEnd, it's NOT covered!
+            if (interval[1] > maxEnd) {
+                remainingCount++;
+                maxEnd = interval[1]; // Update the boundary
             }
+            // If interval[1] <= maxEnd, it is completely swallowed, so we ignore it.
         }
-
-        return ans;
-
+        
+        return remainingCount;
     }
 }
