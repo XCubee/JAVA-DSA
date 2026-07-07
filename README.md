@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2348-number-of-zero-filled-subarrays](https://github.com/XCubee/JAVA-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2427-number-of-common-factors](https://github.com/XCubee/JAVA-DSA/tree/master/2427-number-of-common-factors) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/XCubee/JAVA-DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Hash Table
 |  |
 | ------- |
