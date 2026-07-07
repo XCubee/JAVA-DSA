@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/XCubee/JAVA-DSA/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0228-summary-ranges](https://github.com/XCubee/JAVA-DSA/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/XCubee/JAVA-DSA/tree/master/0238-product-of-array-except-self) |
 | [0334-increasing-triplet-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0334-increasing-triplet-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/XCubee/JAVA-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0334-increasing-triplet-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Topological Sort
 |  |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 <!---LeetCode Topics End-->
