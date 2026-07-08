@@ -14,30 +14,26 @@
  * }
  */
 class Solution {
-    private int count = 0;
-    private int result = 0;
-
     public int kthSmallest(TreeNode root, int k) {
-        count = 0;
-        result = 0;
-        inorder(root, k);
-        return result;
-    }
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode current = root;
 
-    private void inorder(TreeNode node, int k) {
-        if (node == null) return;
+        while (current != null || !stack.isEmpty()) {
+            // Go as far left as possible
+            while (current != null) {
+                stack.push(current);
+                current = current.left;
+            }
 
-        // Traverse left subtree
-        inorder(node.left, k);
+            // Process the next node in order
+            current = stack.pop();
+            k--;
+            if (k == 0) return current.val;
 
-        // Visit current node
-        count++;
-        if (count == k) {
-            result = node.val;
-            return;
+            // Move to the right subtree
+            current = current.right;
         }
 
-        // Traverse right subtree
-        inorder(node.right, k);
+        return -1; // k is always valid, so we won't reach here
     }
 }
