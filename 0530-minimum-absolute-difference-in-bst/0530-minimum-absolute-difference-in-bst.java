@@ -1,26 +1,39 @@
 class Solution {
-    // Declare as class-level variables so both methods can access them
-    int mindiff = Integer.MAX_VALUE;
-    Integer prev = null; 
-
     public int getMinimumDifference(TreeNode root) {
-        inorder(root);
-        return mindiff;
-    }
+        int minDiff = Integer.MAX_VALUE;
+        TreeNode current = root;
+        TreeNode prev = null;
 
-    void inorder(TreeNode root) {
-        if (root == null) return;
+        while (current != null) {
+            if (current.left == null) {
+                // No left child: process current, move right
+                if (prev != null) {
+                    minDiff = Math.min(minDiff, current.val - prev.val);
+                }
+                prev = current;
+                current = current.right;
+            } else {
+                // Find inorder predecessor (rightmost in left subtree)
+                TreeNode predecessor = current.left;
+                while (predecessor.right != null && predecessor.right != current) {
+                    predecessor = predecessor.right;
+                }
 
-        // 1. Traverse Left
-        inorder(root.left);
-
-        // 2. Process Current Node
-        if (prev != null) {
-            mindiff = Math.min(mindiff, root.val - prev);
+                if (predecessor.right == null) {
+                    // Create thread and go left
+                    predecessor.right = current;
+                    current = current.left;
+                } else {
+                    // Thread exists: left subtree done, process current
+                    predecessor.right = null;
+                    if (prev != null) {
+                        minDiff = Math.min(minDiff, current.val - prev.val);
+                    }
+                    prev = current;
+                    current = current.right;
+                }
+            }
         }
-        prev = root.val; // Move prev pointer to current node value
-
-        // 3. Traverse Right
-        inorder(root.right);
+        return minDiff;
     }
 }
