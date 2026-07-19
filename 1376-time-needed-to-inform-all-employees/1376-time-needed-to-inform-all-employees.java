@@ -1,9 +1,9 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 class Solution {
-    int maxTime = 0;
-
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         // Step 1: Build the tree (adjacency list of manager -> subordinates)
         List<List<Integer>> adj = new ArrayList<>();
@@ -17,20 +17,29 @@ class Solution {
             }
         }
         
-        // Step 2: Start top-down DFS from the head of the company
-        dfs(headID, 0, adj, informTime);
+        // Step 2: BFS Initialization
+        // queue stores pairs of {employeeID, timeTakenToReachThisEmployee}
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{headID, 0});
+        
+        int maxTime = 0;
+        
+        while (!queue.isEmpty()) {
+            int[] curr = queue.poll();
+            int currEmployee = curr[0];
+            int timeAccumulated = curr[1];
+            
+            maxTime = Math.max(maxTime, timeAccumulated);
+            
+            // Push all direct subordinates to the queue
+            for (int subordinate : adj.get(currEmployee)) {
+                queue.offer(new int[]{
+                    subordinate, 
+                    timeAccumulated + informTime[currEmployee]
+                });
+            }
+        }
         
         return maxTime;
-    }
-    
-    private void dfs(int currEmployee, int timeAccumulated, List<List<Integer>> adj, int[] informTime) {
-        // Update the maximum time encountered so far
-        maxTime = Math.max(maxTime, timeAccumulated);
-        
-        // Traverse through all direct subordinates
-        for (int subordinate : adj.get(currEmployee)) {
-            // Pass down the accumulated time + the current manager's inform time
-            dfs(subordinate, timeAccumulated + informTime[currEmployee], adj, informTime);
-        }
     }
 }
