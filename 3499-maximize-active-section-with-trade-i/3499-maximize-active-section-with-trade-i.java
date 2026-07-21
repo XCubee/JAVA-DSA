@@ -1,38 +1,37 @@
 class Solution {
-    public int maxActiveSectionsAfterTrade(String s) {
-        int n = s.length();
-        int ones = 0;
+    public int maxActiveSectionsAfterTrade(String s) {        
+        int totalOnes = 0;
+        int maxDelta = 0;
 
-        for (char ch : s.toCharArray()) {
-            if (ch == '1') ones++;
-        }
+        int prevZero = 0;
+        boolean hasOnesInBetween = false;
+        int i = 0;
 
-        int l = 0, r = n - 1;
+        while (i < s.length()) {
+            char ch = s.charAt(i);
+            int j = i;
 
-        while (l < n && s.charAt(l) == '1') l++;
-        while (r >= 0 && s.charAt(r) == '1') r--;
-
-        if (l > r) return ones;
-
-        List<int[]> store = new ArrayList<>();
-
-        int len = 1;
-        for (int i = l + 1; i <= r; i++) {
-            if (s.charAt(i) == s.charAt(i - 1)) {
-                len++;
-            } else {
-                store.add(new int[]{len, s.charAt(i - 1)});
-                len = 1;
+            while (j < s.length() && s.charAt(j) == ch) {
+                j++;
             }
-        }
-        store.add(new int[]{len, s.charAt(r)});
 
-        int maxRange = 0;
-        for (int i = 0; i + 2 < store.size(); i += 2) {
-            int gain = store.get(i)[0] + store.get(i + 2)[0];
-            maxRange = Math.max(maxRange, gain);
+            int len = j - i;
+
+            if (ch == '1') {
+                totalOnes += len;
+                hasOnesInBetween = true; // Mark that we found a 1-block separating zeros
+            } else {
+                // Only merge zero blocks if there was a block of '1's separating them!
+                if (hasOnesInBetween && prevZero > 0) {
+                    maxDelta = Math.max(maxDelta, prevZero + len);
+                }
+                prevZero = len;
+                hasOnesInBetween = false; // Reset for the next pair of zero blocks
+            }
+
+            i = j;
         }
 
-        return ones + maxRange;
+        return totalOnes + maxDelta;
     }
 }
