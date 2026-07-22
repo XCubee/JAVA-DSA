@@ -5,41 +5,29 @@ import java.util.Queue;
 
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
-        // Step 1: Build the tree (adjacency list of manager -> subordinates)
-        List<List<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
+        List<List<Integer>> children = new ArrayList<>();
+        for(int i=0;i<n;i++){
+            children.add(new ArrayList<>());
         }
-        
-        for (int i = 0; i < n; i++) {
-            if (manager[i] != -1) {
-                adj.get(manager[i]).add(i);
+        for(int i=0;i<n;i++){
+            if(manager[i]!=-1){
+                children.get(manager[i]).add(i);
             }
+
         }
-        
-        // Step 2: BFS Initialization
-        // queue stores pairs of {employeeID, timeTakenToReachThisEmployee}
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[]{headID, 0});
-        
-        int maxTime = 0;
-        
-        while (!queue.isEmpty()) {
-            int[] curr = queue.poll();
-            int currEmployee = curr[0];
-            int timeAccumulated = curr[1];
-            
-            maxTime = Math.max(maxTime, timeAccumulated);
-            
-            // Push all direct subordinates to the queue
-            for (int subordinate : adj.get(currEmployee)) {
-                queue.offer(new int[]{
-                    subordinate, 
-                    timeAccumulated + informTime[currEmployee]
-                });
-            }
+        return dfs(headID,0,children,informTime);
+
+    }
+    private int dfs(int node , int cumulative, List<List<Integer>> children, int[] informTime){
+        if(children.get(node).isEmpty()){
+            return cumulative;
         }
-        
+        int maxTime=0;
+        int newTime=cumulative+informTime[node];
+
+        for(int child: children.get(node)){
+            maxTime=Math.max(maxTime,dfs(child,newTime,children,informTime));
+        }
         return maxTime;
     }
 }
