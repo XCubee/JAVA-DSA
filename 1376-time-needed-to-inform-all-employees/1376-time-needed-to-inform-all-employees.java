@@ -6,6 +6,7 @@ import java.util.Queue;
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         List<List<Integer>> children = new ArrayList<>();
+        
         for(int i=0;i<n;i++){
             children.add(new ArrayList<>());
         }
@@ -13,21 +14,24 @@ class Solution {
             if(manager[i]!=-1){
                 children.get(manager[i]).add(i);
             }
-
-        }
-        return dfs(headID,0,children,informTime);
-
-    }
-    private int dfs(int node , int cumulative, List<List<Integer>> children, int[] informTime){
-        if(children.get(node).isEmpty()){
-            return cumulative;
         }
         int maxTime=0;
-        int newTime=cumulative+informTime[node];
+        Queue <int[]> q= new LinkedList<>();
+            q.offer(new int[] {headID,0});
 
-        for(int child: children.get(node)){
-            maxTime=Math.max(maxTime,dfs(child,newTime,children,informTime));
-        }
-        return maxTime;
+            while(!q.isEmpty()){
+                int[] current = q.poll();
+                int node = current[0];
+                int cumulative =current[1];
+            
+            maxTime=Math.max(maxTime,cumulative);
+            
+            int newTime=cumulative+informTime[node];
+
+            for(int child:children.get(node)){
+                q.offer(new int[] {child,newTime});
+            }
+            }
+            return maxTime;
     }
 }
