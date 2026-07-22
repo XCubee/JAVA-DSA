@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0785-is-graph-bipartite](https://github.com/XCubee/JAVA-DSA/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/XCubee/JAVA-DSA/tree/master/1376-time-needed-to-inform-all-employees) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0785-is-graph-bipartite](https://github.com/XCubee/JAVA-DSA/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/XCubee/JAVA-DSA/tree/master/1376-time-needed-to-inform-all-employees) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/XCubee/JAVA-DSA/tree/master/0200-number-of-islands) |
+| [0785-is-graph-bipartite](https://github.com/XCubee/JAVA-DSA/tree/master/0785-is-graph-bipartite) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Heap (Priority Queue)
@@ -275,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/XCubee/JAVA-DSA/tree/master/0133-clone-graph) |
+| [0785-is-graph-bipartite](https://github.com/XCubee/JAVA-DSA/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
