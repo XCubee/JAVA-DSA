@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/XCubee/JAVA-DSA/tree/master/0041-first-missing-positive) |
+| [0133-clone-graph](https://github.com/XCubee/JAVA-DSA/tree/master/0133-clone-graph) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/XCubee/JAVA-DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0133-clone-graph](https://github.com/XCubee/JAVA-DSA/tree/master/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/XCubee/JAVA-DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/XCubee/JAVA-DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/XCubee/JAVA-DSA/tree/master/0200-number-of-islands) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/XCubee/JAVA-DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0133-clone-graph](https://github.com/XCubee/JAVA-DSA/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/XCubee/JAVA-DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/XCubee/JAVA-DSA/tree/master/0200-number-of-islands) |
 | [0404-sum-of-left-leaves](https://github.com/XCubee/JAVA-DSA/tree/master/0404-sum-of-left-leaves) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/XCubee/JAVA-DSA/tree/master/0133-clone-graph) |
 | [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
