@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/XCubee/JAVA-DSA/tree/master/1376-time-needed-to-inform-all-employees) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/XCubee/JAVA-DSA/tree/master/1376-time-needed-to-inform-all-employees) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/XCubee/JAVA-DSA/tree/master/0257-binary-tree-paths) |
+| [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -264,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/XCubee/JAVA-DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/XCubee/JAVA-DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
