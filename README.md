@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/XCubee/JAVA-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2427-number-of-common-factors](https://github.com/XCubee/JAVA-DSA/tree/master/2427-number-of-common-factors) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/XCubee/JAVA-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/XCubee/JAVA-DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Hash Table
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/XCubee/JAVA-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -274,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0222-count-complete-tree-nodes) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/XCubee/JAVA-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 ## Graph Theory
 |  |
 | ------- |
