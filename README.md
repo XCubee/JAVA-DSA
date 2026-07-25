@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0041-first-missing-positive](https://github.com/XCubee/JAVA-DSA/tree/master/0041-first-missing-positive) |
 | [0133-clone-graph](https://github.com/XCubee/JAVA-DSA/tree/master/0133-clone-graph) |
+| [0690-employee-importance](https://github.com/XCubee/JAVA-DSA/tree/master/0690-employee-importance) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0690-employee-importance](https://github.com/XCubee/JAVA-DSA/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/XCubee/JAVA-DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0690-employee-importance](https://github.com/XCubee/JAVA-DSA/tree/master/0690-employee-importance) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -149,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/XCubee/JAVA-DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0690-employee-importance](https://github.com/XCubee/JAVA-DSA/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/XCubee/JAVA-DSA/tree/master/0785-is-graph-bipartite) |
@@ -173,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/XCubee/JAVA-DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0690-employee-importance](https://github.com/XCubee/JAVA-DSA/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/XCubee/JAVA-DSA/tree/master/0785-is-graph-bipartite) |
