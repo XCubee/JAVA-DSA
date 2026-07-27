@@ -15,17 +15,8 @@ class Solution {
                 max2=max2-1;
             }
         }
-        for(int i=0;i<nums.length;i++){
-             if(nums[i]<min1){
-                min2=min1;
-                min1=nums[i];
-                min1=min1-1;
-             }
-            else if (nums[i]<min2){
-                min2=nums[i];
-                min2=min2-1;
-            }
-        }
-        return Math.max((min1*min2),(max1*max2));
+        
+        
+        return (max1*max2);
     }
 }
