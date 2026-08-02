@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/XCubee/JAVA-DSA/tree/master/0494-target-sum) |
 | [0746-min-cost-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0746-min-cost-climbing-stairs) |
+| [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/XCubee/JAVA-DSA/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/XCubee/JAVA-DSA/tree/master/0204-count-primes) |
+| [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/XCubee/JAVA-DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/XCubee/JAVA-DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/XCubee/JAVA-DSA/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0746-min-cost-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0746-min-cost-climbing-stairs) |
+| [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/XCubee/JAVA-DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -377,4 +380,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
