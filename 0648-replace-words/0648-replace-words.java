@@ -1,62 +1,47 @@
-import java.util.*;
-
-class TrieNode {
-    TrieNode[] children = new TrieNode[26];
-    boolean isEnd = false;
-}
-
 class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
-        TrieNode root = new TrieNode();
+        // Build Trie
+        int[][] children = new int[100001][26];
+        boolean[] isEnd = new boolean[100001];
+        int trieSize = 1; // node 0 is root
 
-        // Build trie
-        for (String word : dictionary) {
-            TrieNode node = root;
-            for (char ch : word.toCharArray()) {
-                int idx = ch - 'a';
-                if (node.children[idx] == null) {
-                    node.children[idx] = new TrieNode();
+        for (String root : dictionary) {
+            int node = 0;
+            for (int i = 0; i < root.length(); i++) {
+                int idx = root.charAt(i) - 'a';
+                if (children[node][idx] == 0) {
+                    children[node][idx] = trieSize++;
                 }
-                node = node.children[idx];
+                node = children[node][idx];
+                // If a shorter root already ends here, skip the rest
+                if (isEnd[node]) break;
+            }
+            isEnd[node] = true;
+        }
 
-                // Optional optimization:
-                // if a shorter root already ends here, no need to go deeper
-                if (node.isEnd) {
+        String[] words = sentence.split(" ");
+        StringBuilder result = new StringBuilder();
+
+        for (int w = 0; w < words.length; w++) {
+            if (w > 0) result.append(" ");
+
+            // Search Trie for shortest root prefix
+            int node = 0;
+            boolean found = false;
+            for (int i = 0; i < words[w].length(); i++) {
+                int idx = words[w].charAt(i) - 'a';
+                if (children[node][idx] == 0) break;
+                node = children[node][idx];
+                if (isEnd[node]) {
+                    result.append(words[w], 0, i + 1);
+                    found = true;
                     break;
                 }
             }
-            node.isEnd = true;
-        }
 
-        StringBuilder result = new StringBuilder();
-        String[] words = sentence.split(" ");
-
-        for (int i = 0; i < words.length; i++) {
-            if (i > 0) result.append(" ");
-            result.append(getRoot(words[i], root));
+            if (!found) result.append(words[w]);
         }
 
         return result.toString();
-    }
-
-    private String getRoot(String word, TrieNode root) {
-        TrieNode node = root;
-
-        for (int i = 0; i < word.length(); i++) {
-            char ch = word.charAt(i);
-            int idx = ch - 'a';
-
-            if (node.children[idx] == null) {
-                return word;
-            }
-
-            node = node.children[idx];
-
-            if (node.isEnd) {
-                return word.substring(0, i + 1);
-            }
-        }
-
-        return word;
     }
 }
