@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1108-defanging-an-ip-address](https://github.com/XCubee/JAVA-DSA/tree/master/1108-defanging-an-ip-address) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
+| [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/XCubee/JAVA-DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/XCubee/JAVA-DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/XCubee/JAVA-DSA/tree/master/0733-flood-fill) |
 | [0746-min-cost-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
+| [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/XCubee/JAVA-DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/XCubee/JAVA-DSA/tree/master/0222-count-complete-tree-nodes) |
+| [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
@@ -276,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/XCubee/JAVA-DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -358,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/XCubee/JAVA-DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -384,4 +389,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
+## Trie
+|  |
+| ------- |
+| [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 <!---LeetCode Topics End-->
