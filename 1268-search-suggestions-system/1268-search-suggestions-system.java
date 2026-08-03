@@ -1,35 +1,28 @@
 class Solution {
-    static class TrieNode {
-        TrieNode[] children = new TrieNode[26];
-        List<String> suggestions = new ArrayList<>();
-    }
-
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         Arrays.sort(products);
-        TrieNode root = new TrieNode();
-
-        // Insert in sorted order so each node keeps the 3 smallest matches
-        for (String product : products) {
-            TrieNode node = root;
-            for (char c : product.toCharArray()) {
-                int idx = c - 'a';
-                if (node.children[idx] == null) {
-                    node.children[idx] = new TrieNode();
-                }
-                node = node.children[idx];
-                if (node.suggestions.size() < 3) {
-                    node.suggestions.add(product);
-                }
-            }
-        }
-
         List<List<String>> result = new ArrayList<>();
-        TrieNode node = root;
+        int left = 0, right = products.length - 1;
+
         for (int i = 0; i < searchWord.length(); i++) {
-            if (node != null) {
-                node = node.children[searchWord.charAt(i) - 'a'];
+            char c = searchWord.charAt(i);
+
+            // Shrink left pointer past products that don't match at position i
+            while (left <= right && (products[left].length() <= i || products[left].charAt(i) != c)) {
+                left++;
             }
-            result.add(node == null ? new ArrayList<>() : node.suggestions);
+            // Shrink right pointer past products that don't match at position i
+            while (left <= right && (products[right].length() <= i || products[right].charAt(i) != c)) {
+                right--;
+            }
+
+            // Collect up to 3 suggestions from the valid range
+            List<String> suggestions = new ArrayList<>();
+            int bound = Math.min(left + 3, right + 1);
+            for (int j = left; j < bound; j++) {
+                suggestions.add(products[j]);
+            }
+            result.add(suggestions);
         }
 
         return result;
