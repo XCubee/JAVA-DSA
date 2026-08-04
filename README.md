@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/XCubee/JAVA-DSA/tree/master/0344-reverse-string) |
 | [0541-reverse-string-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0541-reverse-string-ii) |
 | [0648-replace-words](https://github.com/XCubee/JAVA-DSA/tree/master/0648-replace-words) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/XCubee/JAVA-DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1108-defanging-an-ip-address](https://github.com/XCubee/JAVA-DSA/tree/master/1108-defanging-an-ip-address) |
 | [1189-maximum-number-of-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/1189-maximum-number-of-balloons) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/XCubee/JAVA-DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/XCubee/JAVA-DSA/tree/master/0144-binary-tree-preorder-traversal) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/XCubee/JAVA-DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Backtracking
 |  |
@@ -363,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/XCubee/JAVA-DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/XCubee/JAVA-DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -414,4 +417,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/XCubee/JAVA-DSA/tree/master/0648-replace-words) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/XCubee/JAVA-DSA/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/XCubee/JAVA-DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
