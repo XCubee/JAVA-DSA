@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
+| [3731-find-missing-elements](https://github.com/XCubee/JAVA-DSA/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## String
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-maximize-active-section-with-trade-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/XCubee/JAVA-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
+| [3731-find-missing-elements](https://github.com/XCubee/JAVA-DSA/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Divide and Conquer
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/XCubee/JAVA-DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/XCubee/JAVA-DSA/tree/master/3536-maximum-product-of-two-digits) |
+| [3731-find-missing-elements](https://github.com/XCubee/JAVA-DSA/tree/master/3731-find-missing-elements) |
 ## Monotonic Stack
 |  |
 | ------- |
