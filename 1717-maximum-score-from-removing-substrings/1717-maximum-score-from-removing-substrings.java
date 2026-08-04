@@ -1,36 +1,40 @@
 class Solution {
     public int maximumGain(String s, int x, int y) {
+        int aCount = 0;
+        int bCount = 0;
         int totalScore = 0;
 
-        String highPair = x >= y ? "ab" : "ba";
-        String lowPair = x >= y ? "ba" : "ab";
+        // Determine priority
+        char first = x >= y ? 'a' : 'b';
+        char second = x >= y ? 'b' : 'a';
         int highPoints = Math.max(x, y);
         int lowPoints = Math.min(x, y);
 
-        // First pass: remove high scoring pairs
-        StringBuilder stack1 = new StringBuilder();
-        for (char c : s.toCharArray()) {
-            int len = stack1.length();
-            if (len > 0 && stack1.charAt(len - 1) == highPair.charAt(0) && c == highPair.charAt(1)) {
-                stack1.deleteCharAt(len - 1); // "Pop" matching pair
-                totalScore += highPoints;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+
+            if (c == first) {
+                aCount++;
+            } else if (c == second) {
+                if (aCount > 0) {
+                    // We found a high-value pair! (e.g., 'a' followed by 'b')
+                    aCount--;
+                    totalScore += highPoints;
+                } else {
+                    // No matching 'first' character available, buffer this 'second'
+                    bCount++;
+                }
             } else {
-                stack1.append(c);
+                // Non-'a'/'b' character acts as a separator.
+                // Clear out remaining low-value pairs for this block.
+                totalScore += Math.min(aCount, bCount) * lowPoints;
+                aCount = 0;
+                bCount = 0;
             }
         }
 
-        // Second pass: remove low scoring pairs from remaining string
-        StringBuilder stack2 = new StringBuilder();
-        for (int i = 0; i < stack1.length(); i++) {
-            char c = stack1.charAt(i);
-            int len = stack2.length();
-            if (len > 0 && stack2.charAt(len - 1) == lowPair.charAt(0) && c == lowPair.charAt(1)) {
-                stack2.deleteCharAt(len - 1); // "Pop" matching pair
-                totalScore += lowPoints;
-            } else {
-                stack2.append(c);
-            }
-        }
+        // Process any remaining counts at the end of the string
+        totalScore += Math.min(aCount, bCount) * lowPoints;
 
         return totalScore;
     }
