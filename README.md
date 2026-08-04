@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0045-jump-game-ii) |
 | [0070-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0070-climbing-stairs) |
 | [0416-partition-equal-subset-sum](https://github.com/XCubee/JAVA-DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/XCubee/JAVA-DSA/tree/master/0031-next-permutation) |
 | [0041-first-missing-positive](https://github.com/XCubee/JAVA-DSA/tree/master/0041-first-missing-positive) |
+| [0045-jump-game-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0045-jump-game-ii) |
 | [0057-insert-interval](https://github.com/XCubee/JAVA-DSA/tree/master/0057-insert-interval) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/XCubee/JAVA-DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0200-number-of-islands](https://github.com/XCubee/JAVA-DSA/tree/master/0200-number-of-islands) |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0045-jump-game-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/XCubee/JAVA-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
