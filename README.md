@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0541-reverse-string-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0541-reverse-string-ii) |
 | [0648-replace-words](https://github.com/XCubee/JAVA-DSA/tree/master/0648-replace-words) |
 | [0680-valid-palindrome-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0680-valid-palindrome-ii) |
+| [0796-rotate-string](https://github.com/XCubee/JAVA-DSA/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/XCubee/JAVA-DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1108-defanging-an-ip-address](https://github.com/XCubee/JAVA-DSA/tree/master/1108-defanging-an-ip-address) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/XCubee/JAVA-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0796-rotate-string](https://github.com/XCubee/JAVA-DSA/tree/master/0796-rotate-string) |
 ## Sorting
 |  |
 | ------- |
