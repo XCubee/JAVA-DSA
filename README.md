@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/XCubee/JAVA-DSA/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0070-climbing-stairs) |
+| [0392-is-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/XCubee/JAVA-DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/XCubee/JAVA-DSA/tree/master/0494-target-sum) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/XCubee/JAVA-DSA/tree/master/0058-length-of-last-word) |
 | [0257-binary-tree-paths](https://github.com/XCubee/JAVA-DSA/tree/master/0257-binary-tree-paths) |
 | [0344-reverse-string](https://github.com/XCubee/JAVA-DSA/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/XCubee/JAVA-DSA/tree/master/0409-longest-palindrome) |
 | [0541-reverse-string-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0541-reverse-string-ii) |
 | [0648-replace-words](https://github.com/XCubee/JAVA-DSA/tree/master/0648-replace-words) |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/XCubee/JAVA-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/XCubee/JAVA-DSA/tree/master/0031-next-permutation) |
 | [0344-reverse-string](https://github.com/XCubee/JAVA-DSA/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/XCubee/JAVA-DSA/tree/master/0392-is-subsequence) |
 | [0541-reverse-string-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0541-reverse-string-ii) |
 | [0680-valid-palindrome-ii](https://github.com/XCubee/JAVA-DSA/tree/master/0680-valid-palindrome-ii) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
