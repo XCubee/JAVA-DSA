@@ -2,41 +2,25 @@ class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1 || numRows >= s.length()) return s;
 
-        char[][] grid = new char[numRows][s.length()];
-        int row = 0, col = 0;
-        boolean goingDown = true;
+        StringBuilder[] rows = new StringBuilder[numRows];
+        for (int i = 0; i < numRows; i++) {
+            rows[i] = new StringBuilder();
+        }
 
-        for (int i = 0; i < s.length(); i++) {
-            grid[row][col] = s.charAt(i);
+        int currentRow = 0;
+        int direction = 1;
 
-            if (goingDown) {
-                if (row == numRows - 1) {
-                    // Switch to diagonal up-right
-                    row--;
-                    col++;
-                    goingDown = false;
-                } else {
-                    row++;
-                }
-            } else {
-                if (row == 0) {
-                    // Switch back to going down
-                    row++;
-                    goingDown = true;
-                } else {
-                    row--;
-                    col++;
-                }
-            }
+        for (char c : s.toCharArray()) {
+            rows[currentRow].append(c);
+            // Flip direction at top and bottom rows
+            if (currentRow == 0) direction = 1;
+            else if (currentRow == numRows - 1) direction = -1;
+            currentRow += direction;
         }
 
         StringBuilder result = new StringBuilder();
-        for (int r = 0; r < numRows; r++) {
-            for (int c = 0; c < s.length(); c++) {
-                if (grid[r][c] != '\0') {
-                    result.append(grid[r][c]);
-                }
-            }
+        for (StringBuilder row : rows) {
+            result.append(row);
         }
         return result.toString();
     }
