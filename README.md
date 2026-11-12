@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/XCubee/JAVA-DSA/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/XCubee/JAVA-DSA/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/XCubee/JAVA-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
