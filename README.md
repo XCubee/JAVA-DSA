@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/XCubee/JAVA-DSA/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/XCubee/JAVA-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/XCubee/JAVA-DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3620-network-recovery-pathways](https://github.com/XCubee/JAVA-DSA/tree/master/3620-network-recovery-pathways) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1871-jump-game-vii](https://github.com/XCubee/JAVA-DSA/tree/master/1871-jump-game-vii) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/XCubee/JAVA-DSA/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Linked List
 |  |
 | ------- |
@@ -343,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/XCubee/JAVA-DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/XCubee/JAVA-DSA/tree/master/1717-maximum-score-from-removing-substrings) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Backtracking
 |  |
 | ------- |
@@ -431,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/XCubee/JAVA-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Memoization
 |  |
 | ------- |
@@ -466,4 +471,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/XCubee/JAVA-DSA/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+## Queue
+|  |
+| ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Monotonic Queue
+|  |
+| ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 <!---LeetCode Topics End-->
