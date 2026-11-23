@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/XCubee/JAVA-DSA/tree/master/0238-product-of-array-except-self) |
+| [1352-product-of-the-last-k-numbers](https://github.com/XCubee/JAVA-DSA/tree/master/1352-product-of-the-last-k-numbers) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/XCubee/JAVA-DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1871-jump-game-vii](https://github.com/XCubee/JAVA-DSA/tree/master/1871-jump-game-vii) |
 | [3364-minimum-positive-sum-subarray](https://github.com/XCubee/JAVA-DSA/tree/master/3364-minimum-positive-sum-subarray) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/XCubee/JAVA-DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/XCubee/JAVA-DSA/tree/master/0204-count-primes) |
 | [0877-stone-game](https://github.com/XCubee/JAVA-DSA/tree/master/0877-stone-game) |
+| [1352-product-of-the-last-k-numbers](https://github.com/XCubee/JAVA-DSA/tree/master/1352-product-of-the-last-k-numbers) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/XCubee/JAVA-DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/XCubee/JAVA-DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/XCubee/JAVA-DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/XCubee/JAVA-DSA/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1268-search-suggestions-system](https://github.com/XCubee/JAVA-DSA/tree/master/1268-search-suggestions-system) |
 | [1288-remove-covered-intervals](https://github.com/XCubee/JAVA-DSA/tree/master/1288-remove-covered-intervals) |
+| [1352-product-of-the-last-k-numbers](https://github.com/XCubee/JAVA-DSA/tree/master/1352-product-of-the-last-k-numbers) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/XCubee/JAVA-DSA/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/XCubee/JAVA-DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/XCubee/JAVA-DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
@@ -496,4 +499,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/XCubee/JAVA-DSA/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Design
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/XCubee/JAVA-DSA/tree/master/1352-product-of-the-last-k-numbers) |
+## Data Stream
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/XCubee/JAVA-DSA/tree/master/1352-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
