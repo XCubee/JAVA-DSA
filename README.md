@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3693-climbing-stairs-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3693-climbing-stairs-ii) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/XCubee/JAVA-DSA/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/XCubee/JAVA-DSA/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3737-count-subarrays-with-majority-element-i](https://github.com/XCubee/JAVA-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3934-smallest-unique-subarray](https://github.com/XCubee/JAVA-DSA/tree/master/3934-smallest-unique-subarray) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/XCubee/JAVA-DSA/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -436,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/XCubee/JAVA-DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/XCubee/JAVA-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/XCubee/JAVA-DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/XCubee/JAVA-DSA/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Topological Sort
 |  |
 | ------- |
